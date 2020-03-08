@@ -37,9 +37,9 @@ public class MainCircles extends JFrame {
         add(canvas);
         setVisible(true);
 
-        ru.gb.jtwo.la.online.circles.background background1 = new background(this);
+        ru.gb.jtwo.la.online.circles.background background1 = new background(this);// передаем ссылку
         Thread r = new Thread (background1);
-        r.start();
+        r.start(); // Запуск потока
     }
 
     private void initApplication() {
