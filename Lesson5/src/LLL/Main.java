@@ -54,7 +54,8 @@ public class Main {
 
         System.arraycopy(a, 0, arr, 0, h);
         System.arraycopy(b, 0, arr, a.length, b.length);
-        System.out.println("Склейка массива : " + (System.currentTimeMillis()-n));
+        System.out.println("Склейка массива : " + (System.currentTimeMillis()-n));// время выполнения
+        
 
 
 
